@@ -1,0 +1,7 @@
+<div id="randomBeer">
+{{#each responseFromAPI}}
+  {{> beerpartial this}}
+  <p>{{this.food_pairing}}<br>{{this.brewers_tips}}</p>
+{{/each}}
+</div>
+
